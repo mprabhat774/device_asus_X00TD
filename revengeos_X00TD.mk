@@ -19,8 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Corvus stuff
-$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+# Inherit some common revengeos stuff
+$(call inherit-product, vendor/revengeos/config/common.mk)
+
+# Build
+REVENGEOS_BUILDTYPE := PKM774
 
 # Poduct spec
 TARGET_INCLUDE_WIFI_EXT := true
@@ -35,7 +38,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00TD
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := corvus_X00TD
+PRODUCT_NAME := revengeos_X00TD
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210405.005 7181113 release-keys"
