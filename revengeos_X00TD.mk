@@ -24,6 +24,7 @@ $(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Build
 REVENGEOS_BUILDTYPE := PKM774
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Poduct spec
 TARGET_INCLUDE_WIFI_EXT := true
