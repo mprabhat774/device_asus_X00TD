@@ -143,7 +143,7 @@ ro.hwui.text_large_cache_height=2048
 persist.vendor.radio.atfwd.start=true
 
 #property to enable VDS WFD solution
-persist.hwc.enable_vds=1
+debug.sf.enable_hwc_vds=1
 
 #Whitelisting the below packages
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.google.android.apps.cameralite
