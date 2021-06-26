@@ -297,7 +297,9 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    libsensorndkbridge
+    libsensorndkbridge \
+    libavservices_minijail \
+    libavservices_minijail.vendor
 
 # GPS Config
 PRODUCT_COPY_FILES += \
