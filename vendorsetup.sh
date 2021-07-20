@@ -19,5 +19,6 @@ git clone https://github.com/LineageOS/android_hardware_qcom_thermal -b lineage-
 rm -rf hardware/libhardware
 git clone https://github.com/LineageOS/android_hardware_libhardware -b lineage-18.0 hardware/libhardware
 
+# Private repo vendor/sounds
 rm -rf vendor/sounds
 git clone https://github.com/pkm774/sounds vendor/sounds
