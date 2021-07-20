@@ -146,8 +146,7 @@ persist.vendor.radio.atfwd.start=true
 persist.hwc.enable_vds=1
 
 #Whitelisting the below packages
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.google.android.apps.cameralite
-persist.camera.privapp.list=com.google.android.apps.cameralite,com.google.android.apps.cameralite
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 
 #set maximum supported adapter voltage
 persist.chg.max_volt_mv=9000

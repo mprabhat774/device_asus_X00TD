@@ -603,7 +603,6 @@ PRODUCT_PACKAGES += \
 # Prebuilts
 PRODUCT_PACKAGES += \
     AmplifierPrebuilt \
-    GoogleCameraGo \
     Sounds
     
 PRODUCT_COPY_FILES += \

@@ -84,8 +84,6 @@
     <hidden-api-whitelisted-app package="com.qualcomm.qti.uimlpatest" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.lpa" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.uim" />
-
-    <hidden-api-whitelisted-app package="com.google.android.apps.cameralite" />
     <hidden-api-whitelisted-app package="com.android.mms" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.carrierswitch" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.carrierconfigure" />
@@ -96,7 +94,6 @@
     <hidden-api-whitelisted-app package="com.android.contacts" />
     <hidden-api-whitelisted-app package="com.android.exchange" />
     <hidden-api-whitelisted-app package="com.android.soundrecorder" />
-    <hidden-api-whitelisted-app package="com.android.camera2" />
     <hidden-api-whitelisted-app package="org.codeaurora.gallery" />
     <hidden-api-whitelisted-app package="com.example.connmgr" />
     <hidden-api-whitelisted-app package="com.android.email" />
