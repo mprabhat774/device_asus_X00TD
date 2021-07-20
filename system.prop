@@ -51,6 +51,9 @@ vidc.enc.target_support_bframe=1
 vendor.vidc.enc.disable_bframes=1
 vendor.vidc.dec.enable.downscalar=0
 
+# Additional buffers shared between Camera and Video
+vidc.enc.dcvs.extra-buff-count=2
+
 # disable PQ feature by default
 vendor.vidc.enc.disable.pq=true
 
@@ -145,8 +148,15 @@ persist.vendor.radio.atfwd.start=true
 #property to enable VDS WFD solution
 persist.hwc.enable_vds=1
 
+#Expose aux camera for below packages
+vendor.camera.aux.packagelist=org.codeaurora.snapcam
+
 #Whitelisting the below packages
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam
+persist.camera.privapp.list=org.codeaurora.snapcam
+
+#disable UBWC for camera
+persist.vendor.camera.preview.ubwc=0
 
 #set maximum supported adapter voltage
 persist.chg.max_volt_mv=9000
@@ -173,6 +183,12 @@ persist.sys.iscdfinger_998eas=1
 #Huaqin add for auto finger by zhangjingzhi at 20180808 start
 persist.sys.fingerauto=1
 #Huaqin add for auto finger by zhangjingzhi at 20180808 end
+persist.vendor.camera.rtb.enable=1
+#EIS Enable
+persist.vendor.camera.eis.enable=1
+persist.vendor.camera.is_type=5
+vendor.debug.camera.prop_dis=1
+persist.vendor.camera.aec.sync=1
 
 # ro.location properties below are used in conjunction
 # with NLP_MODE setting in /vendor/etc/izat.conf
@@ -215,10 +231,6 @@ ro.vendor.qti.config.zram=true
 
 # Leds
 persist.asus.led.on=1
-
-# System Tweaks 
-ro.config.hw_fast_dormancy=1
-ro.config.hw_power_saving=true
 
 # Steaming Tweaks
 media.stagefright.enable-http=true

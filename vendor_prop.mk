@@ -53,6 +53,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.HAL3.enabled=1 \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam \
     persist.vendor.camera.expose.aux=1 \
     persist.vendor.camera.mpo.disabled=1 \
     persist.vendor.camera.eis.enable=1 \
